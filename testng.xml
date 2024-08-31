@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" name="/Users/alpha/IdeaProjects/ATB6xWebAutomationFramework">
+        <classes>
+            <class name="com.testingacademy.TestVWOLogin">
+                <methods>
+                    <include name="testLoginVWONegativeLogin"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.TrstVWOLoginPOM">
+                <methods>
+                    <include name="testLoginWithInValidCredentials01"/>
+                    <include name="testLoginWithInValidCredentials02"/>
+                    <include name="testLoginWithValidCredentials03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
