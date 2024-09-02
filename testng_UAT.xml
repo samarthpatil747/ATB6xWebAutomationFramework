@@ -5,7 +5,7 @@
     <parameter name="env" value="prod"></parameter>
     <test verbose="2" preserve-order="true" parallel="methods" name="/Users/alpha/IdeaProjects/ATB6xWebAutomationFramework">
         <classes>
-            <class name="com.testingacademy.tests.TestVWOLogin">
+            <class name="com.testingacademy.tests.TestVWOLogin_PF_Base_Dm">
                 <methods>
                     <include name="testLoginVWONegativeLogin"/>
                 </methods>

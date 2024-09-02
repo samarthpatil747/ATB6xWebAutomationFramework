@@ -1,4 +1,4 @@
-package com.testingacademy.pages.PageObjectModule;
+package com.testingacademy.pages.pageObjectModel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,11 +7,11 @@ public class LoginPage_POM {
 
     private WebDriver driver;
 
-    //Page Locators
+
     public LoginPage_POM(WebDriver driver) {
         this.driver = driver;
     }
-
+    //Page Locators
     private By Username = By.id("login-username");
     private By Password = By.id("login-password");
     private By LoginButton = By.id("js-login-btn");

@@ -1,4 +1,4 @@
-package com.testingacademy;
+package com.testingacademy.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

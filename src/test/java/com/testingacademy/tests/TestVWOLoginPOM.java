@@ -1,12 +1,12 @@
-package com.testingacademy;
+package com.testingacademy.tests;
 
-import com.testingacademy.pages.PageObjectModule.LoginPage_POM;
+import com.testingacademy.pages.pageObjectModel.LoginPage_POM;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TrstVWOLoginPOM {
+public class TestVWOLoginPOM {
 
     @Test
     public void testLoginWithInValidCredentials01() {
