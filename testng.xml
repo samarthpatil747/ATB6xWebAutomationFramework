@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <parameter name="browser" value="chrome"></parameter>
-    <parameter name="env" value="prod"></parameter>
-    <test verbose="2" preserve-order="true" parallel="methods" name="/Users/alpha/IdeaProjects/ATB6xWebAutomationFramework">
-        <classes>
-            <class name="com.testingacademy.tests.TestVWOLogin">
-                <methods>
-                    <include name="testLoginVWONegativeLogin"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.tests.TestVWOLoginPOM">
-                <methods>
-                    <include name="testLoginWithInValidCredentials01"/>
-                    <include name="testLoginWithInValidCredentials02"/>
-                    <include name="testLoginWithValidCredentials03"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/alpha/IdeaProjects/ATB6xWebAutomationFramework"><classes><class name="com.testingacademy.tests.LoginTest_BaseTest"><methods><include name="testLoginPositive01"/></methods></class><class name="com.testingacademy.tests.TestVWOLogin"><methods><include name="testLoginVWONegativeLogin"/></methods></class><class name="com.testingacademy.tests.TestVWOLoginPOM"><methods><include name="testLoginWithInValidCredentials01"/><include name="testLoginWithValidCredentials02"/><include name="testLoginWithInValidCredentials03"/></methods></class><class name="com.testingacademy.tests.TestVWOLogin_PF"><methods><include name="testLoginWithInValidCredentials01"/><include name="testLoginWithValidCredentials02"/></methods></class><class name="com.testingacademy.tests.TestVWOLogin_PF_Base"><methods><include name="testLoginWithInValidCredentials01"/><include name="testLoginWithValidCredentials02"/></methods></class><class name="com.testingacademy.tests.TestVWOLogin_PF_Base_Dm"><methods><include name="testLoginWithInValidCredentials01"/><include name="testLoginWithValidCredentials02"/></methods></class></classes></test></suite>

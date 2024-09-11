@@ -14,7 +14,6 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
 import java.io.FileNotFoundException;
-import java.lang.reflect.Parameter;
 
 public class DriverManager {
     public static WebDriver driver;
@@ -27,7 +26,7 @@ public class DriverManager {
         DriverManager.driver = driver;
     }
 
-  //  @Test(Parameter="browser")
+
     public static void init() {
         if (driver == null) {
             String browser = null;
@@ -128,6 +127,7 @@ public class DriverManager {
 
         }
     }
+
 
     public static void down() {
         if (driver != null) {

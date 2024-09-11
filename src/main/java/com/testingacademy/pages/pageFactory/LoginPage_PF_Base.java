@@ -15,6 +15,7 @@ public class LoginPage_PF_Base extends CommonToAllPage {
 
     public LoginPage_PF_Base(WebDriver driver) {
         PageFactory.initElements(driver, this);
+
     }
     // Page Locators
     @FindBy(id = "login-username")
